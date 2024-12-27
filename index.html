@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>醫療數位轉型輔導顧問服務</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("mobileMenu");
+      menu.classList.toggle("hidden");
+    }
+  </script>
+</head>
 
 <body class="bg-gray-50">
   <!-- 導航欄 -->
@@ -16,12 +23,31 @@
           <img src="logo.png" alt="Logo" class="w-12 h-12" />
           <span class="text-2xl font-bold text-blue-900">微服務有限公司</span>
         </div>
-        <div class="space-x-6">
+        <!-- 漢堡按鈕 -->
+        <button
+          class="block lg:hidden text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
+          onclick="toggleMenu()">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <!-- 完整選單 -->
+        <div class="hidden lg:flex space-x-6">
           <a href="#services" class="text-gray-600 hover:text-blue-600">服務項目</a>
           <a href="#consultant" class="text-gray-600 hover:text-blue-600">醫療資訊顧問</a>
           <a href="https://www.cio.com.tw/author/sunpeiran/" class="text-gray-600 hover:text-blue-600">CIO雜誌名家專欄</a>
           <a href="#contact" class="text-gray-600 hover:text-blue-600">聯絡我們</a>
         </div>
+      </div>
+      <!-- 漢堡選單 -->
+      <div id="mobileMenu" class="hidden lg:hidden mt-4 bg-white shadow-md rounded-lg">
+        <a href="#services" class="block px-4 py-2 text-gray-600 hover:bg-blue-100 hover:text-blue-600">服務項目</a>
+        <a href="#consultant" class="block px-4 py-2 text-gray-600 hover:bg-blue-100 hover:text-blue-600">醫療資訊顧問</a>
+        <a href="https://www.cio.com.tw/author/sunpeiran/"
+          class="block px-4 py-2 text-gray-600 hover:bg-blue-100 hover:text-blue-600">CIO雜誌名家專欄</a>
+        <a href="#contact" class="block px-4 py-2 text-gray-600 hover:bg-blue-100 hover:text-blue-600">聯絡我們</a>
       </div>
     </div>
   </nav>
@@ -30,7 +56,7 @@
   <div class="bg-white pt-20">
     <div class="container mx-auto px-4 py-16">
       <div class="text-center">
-        <h1 class="text-4xl font-bold text-gray-900 mb-4">醫療數位轉型輔導顧問服務</h1>
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">醫療數位轉型顧問服務</h1>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           專注於醫療資訊系統優化、智慧醫院建置，協助醫療機構邁向數位轉型新紀元
         </p>
@@ -42,7 +68,7 @@
   <div id="services" class="relative -top-20"></div>
   <div class="py-16 bg-gray-50 scroll-mt-20">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center text-blue-600 mb-12">醫療數位轉型輔導服務項目</h2>
+      <h2 class="text-3xl font-bold text-center text-blue-600 mb-12">醫療數位轉型輔導服務</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Service Cards -->
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
