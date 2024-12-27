@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>醫療數位轉型輔導顧問服務</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <body class="bg-gray-50">
+    <!-- 導航欄 -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+      <div class="container mx-auto px-4 py-3">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <img src="logo.png" alt="Logo" class="w-12 h-12" />
+            <span class="text-2xl font-bold text-blue-900">微服務有限公司</span>
+          </div>
+          <div class="space-x-6">
+            <a href="#services" class="text-gray-600 hover:text-blue-600">服務項目</a>
+            <a href="#consultant" class="text-gray-600 hover:text-blue-600">醫療資訊顧問</a>
+            <a href="https://www.cio.com.tw/author/sunpeiran/" class="text-gray-600 hover:text-blue-600">CIO雜誌名家專欄</a>
+            <a href="#contact" class="text-gray-600 hover:text-blue-600">聯絡我們</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 主視覺區域 -->
+    <div class="bg-white pt-20">
+      <div class="container mx-auto px-4 py-16">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold text-gray-900 mb-4">醫療數位轉型輔導顧問服務</h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            專注於醫療資訊系統優化、智慧醫院建置，協助醫療機構邁向數位轉型新紀元
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 服務項目 -->
+    <div id="services" class="relative -top-20"></div>
+    <div class="py-16 bg-gray-50 scroll-mt-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-blue-600 mb-12">醫療數位轉型輔導服務項目</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service Cards -->
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">HIS 系統優化與再造</h3>
+            <p class="text-gray-600">
+              提供醫院資訊系統（HIS）優化與再造服務，分析現有系統的瓶頸與需求，並協助系統無縫接軌其他系統，提升運作效能與使用者體驗。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">資料庫 Schema 設計與優化</h3>
+            <p class="text-gray-600">
+              提供專業的資料庫結構設計與優化建議，確保數據正確性與一致性，並藉由效能調校支援未來業務需求，打造穩健的數據基礎。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">流程優化再造與閉環管理</h3>
+            <p class="text-gray-600">
+              提供醫療流程優化再造與閉環管理的設計與指導服務，協助臨床流程進行全盤分析與優化，強化就源輸入的設計。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">FHIR 標準實施與資料介接平台</h3>
+            <p class="text-gray-600">
+              提供專業的 FHIR 資料交換標準顧問服務，協助醫院導入標準化流程，設計高效的資料介接平台，並規劃資料中台建置方案。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">微服務架構設計與培訓</h3>
+            <p class="text-gray-600">提供微服務架構的設計與實作諮詢，包括服務範疇劃分、API 設計與技術實現，並提供團隊專屬培訓。</p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">事件驅動架構設計與實施</h3>
+            <p class="text-gray-600">
+              協助醫院導入事件驅動架構，提供完整設計與實作服務，打造以事件為核心的系統，提升系統反應速度與擴展性。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">開發流程自動化與 DevOps 導入</h3>
+            <p class="text-gray-600">
+              推動自動化開發流程，導入 DevOps 理念，優化開發到部署的全流程，加快系統上線速度，提升整體交付效能。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">大數據平台建置與數據中台規劃</h3>
+            <p class="text-gray-600">
+              協助醫院建置醫療大數據平台，整合多元資料來源，規劃資料中台，實現數據的集中管理與共享，支援決策制定。
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+            <h3 class="text-xl font-bold text-blue-600 mb-4">智慧醫院創新與競賽指導</h3>
+            <p class="text-gray-600">
+              協助醫院進行智慧醫院創新規劃，提出創新服務建議，並優化臨床與行政流程整合。提供競賽選題建議與指導。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 專案顧問 -->
+    <div id="consultant" class="relative -top-20"></div>
+    <div class="bg-gray-100 py-16 scroll-mt-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">醫療資訊顧問 - 孫培然</h2>
+        <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-8">
+          <!-- Flex container for photo and table -->
+          <div class="flex flex-col lg:flex-row lg:items-start gap-8">
+            <!-- Photo section -->
+            <div class="flex-shrink-0">
+              <img src="consultant.jpg" alt="顧問照片" class="rounded-lg shadow-md mx-auto lg:mx-0 max-w-full lg:max-w-sm" />
+            </div>
+            <!-- Table section -->
+            <div class="overflow-x-auto flex-grow">
+              <table class="w-full border border-gray-300 border-collapse">
+                <tr>
+                  <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">產</td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>• 微服務有限公司</li>
+                      <li>• 雲行至善股份有限公司</li>
+                      <li>• 中國醫藥大學附設醫院</li>
+                      <li>• 敏盛醫療體系</li>
+                      <li>• 可信科技股份有限公司</li>
+                      <li>• 中山醫學大學附設醫院</li>
+                      <li>• 童綜合醫院</li>
+                    </ul>
+                  </td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>醫療資訊顧問</li>
+                      <li>技術長</li>
+                      <li>資訊室 副主任</li>
+                      <li>資訊長</li>
+                      <li>總經理</li>
+                      <li>資訊室 主任</li>
+                      <li>資訊室 組長</li>
+                    </ul>
+                  </td>    
+                </tr>
+                <tr>
+                  <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">官</td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>• 國家醫療品質獎-智慧醫療</li>
+                      <li>• IT Matters Awards</li>
+                      <li>• 台北醫學大學醫療體系</li>
+                      <li>• 榮民醫療體系資訊整合</li>
+                      <li>• 三軍總醫院</li>
+                      <li>• 衛生福利部</li>
+                    </ul>
+                  </td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>評審委員</li>
+                      <li>評審委員</li>
+                      <li>指導顧問</li>
+                      <li>專家顧問</li>
+                      <li>資訊決策顧問</li>
+                      <li>電子病歷發展會委員</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">學</td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>• 中山醫學大學</li>
+                      <li>• 醫院資訊與智慧醫療促進會</li>
+                      <li>• 台灣健康資訊交換HL7協會</li>
+                      <li>• 臺灣醫學資訊學會</li>
+                      <li>• CIO IT經理人雜誌</li>
+                      <li>• 香港大學-企業研究院</li>
+                      <li>• 中國醫藥大學</li>
+                    </ul>
+                  </td>
+                  <td class="border border-gray-300 p-4 align-top">
+                    <ul>
+                      <li>電算中心 主任</li>
+                      <li>會長</li>
+                      <li>理事</li>
+                      <li>理事</li>
+                      <li>名家專欄作者</li>
+                      <li>兼任助理教授</li>
+                      <li>兼任助理教授</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<!-- 聯絡我們 -->
+<div id="contact" class="relative -top-20"></div>
+<div class="bg-gray-100 py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">聯絡我們</h2>
+    <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-8">
+      <p class="text-center text-gray-600 mb-8">
+        如果您有任何問題或需求，歡迎與我們聯繫，我們將提供最專業的醫療數位轉型顧問服務。
+      </p>
+      <div class="bg-blue-600 text-white px-6 py-4 rounded-lg shadow-md text-center">
+        <p class="text-lg font-semibold mb-2">聯繫我們</p>
+        <a href="mailto:microservices.tw@gmail.com" class="text-xl underline font-bold hover:text-blue-300 transition-colors">
+          microservices.tw@gmail.com
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div> <!-- 主內容結束 -->
+<footer style="background-color: #0a1128;" class="text-white py-4">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2024 微服務有限公司 - 醫療數位轉型顧問輔導服務. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
+
