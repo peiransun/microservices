@@ -54,7 +54,7 @@
 
   <!-- 主視覺區域 -->
   <div class="bg-white pt-20">
-    <div class="container mx-auto px-4 py-16">
+    <div class="container mx-auto px-4 py-16 max-w-7xl">
       <div class="text-center">
         <h1 class="text-3xl font-bold text-gray-900 mb-4">醫療數位轉型顧問服務</h1>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -67,22 +67,18 @@
   <!-- 服務項目 -->
   <div id="services" class="relative -top-20"></div>
   <div class="py-16 bg-gray-50 scroll-mt-20">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 max-w-7xl">
       <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">醫療數位轉型服務項目</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Service Cards -->
+        <!-- 卡片 -->
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
           <h3 class="text-xl font-bold text-blue-600 mb-4">HIS 系統優化與再造</h3>
-          <p class="text-gray-600">
-            提供醫院資訊系統（HIS）優化與再造服務，分析現有系統的瓶頸與需求，並協助系統無縫接軌其他系統，提升運作效能與使用者體驗。
-          </p>
+          <p class="text-gray-600">提供醫院資訊系統（HIS）優化與再造服務，分析現有系統的瓶頸與需求，並協助系統無縫接軌其他系統，提升運作效能與使用者體驗。</p>
         </div>
-  
+        
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
           <h3 class="text-xl font-bold text-blue-600 mb-4">資料庫 Schema 設計與優化</h3>
-          <p class="text-gray-600">
-            提供專業的資料庫結構設計與優化建議，確保數據正確性與一致性，並藉由效能調校支援未來業務需求，打造穩健的數據基礎。
-          </p>
+          <p class="text-gray-600">提供專業的資料庫結構設計與優化建議，確保數據正確性與一致性，並藉由效能調校支援未來業務需求，打造穩健的數據基礎。</p>
         </div>
   
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
@@ -160,121 +156,124 @@
   
   <!-- 專案顧問 -->
   <div id="consultant" class="relative -top-20"></div>
+  <div id="consultant" class="relative -top-20"></div>
   <div class="bg-gray-100 py-16 scroll-mt-20">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 max-w-7xl">
       <h2 class="text-3xl font-bold text-center mb-12">醫療資訊顧問 - 孫培然</h2>
-      <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <!-- Flex container for photo and table -->
-        <div class="flex flex-col lg:flex-row lg:items-start gap-8">
-          <!-- Photo section -->
-          <div class="flex-shrink-0">
-            <img src="consultant.jpg" alt="顧問照片" class="rounded-lg shadow-md mx-auto lg:mx-0 max-w-full lg:max-w-sm" />
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <div class="flex flex-col lg:flex-row lg:items-stretch gap-8">
+          <div class="flex-shrink-0 flex items-stretch">
+            <img src="consultant.jpg" alt="顧問照片" class="rounded-lg shadow-md mx-auto lg:mx-0 max-w-full lg:max-w-sm h-full object-cover" />
           </div>
-          <!-- Table section -->
           <div class="overflow-x-auto flex-grow">
-            <table class="w-full border border-gray-300 border-collapse">
+            <table class="w-full border border-gray-300 border-collapse text-base">
               <tr>
-                <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">產</td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>• 微服務有限公司</li>
-                    <li>• 雲行至善股份有限公司</li>
-                    <li>• 中國醫藥大學附設醫院</li>
-                    <li>• 敏盛醫療體系</li>
-                    <li>• 可信科技股份有限公司</li>
-                    <li>• 中山醫學大學附設醫院</li>
-                    <li>• 童綜合醫院</li>
-                  </ul>
-                </td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>醫療資訊顧問</li>
-                    <li>技術長</li>
-                    <li>資訊室 副主任</li>
-                    <li>資訊長</li>
-                    <li>總經理</li>
-                    <li>資訊室 主任</li>
-                    <li>資訊室 組長</li>
-                  </ul>
-                </td>
+                <td class="border border-gray-300 bg-gray-50 p-2 text-center font-bold align-middle" rowspan="7">產</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">微服務有限公司</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">醫療資訊顧問</td>
               </tr>
               <tr>
-                <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">官</td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>• 國家醫療品質獎-智慧醫療</li>
-                    <li>• IT Matters Awards</li>
-                    <li>• 台北醫學大學醫療體系</li>
-                    <li>• 榮民醫療體系資訊整合</li>
-                    <li>• 三軍總醫院</li>
-                    <li>• 衛生福利部</li>
-                  </ul>
-                </td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>評審委員</li>
-                    <li>評審委員</li>
-                    <li>指導顧問</li>
-                    <li>專家顧問</li>
-                    <li>資訊決策顧問</li>
-                    <li>電子病歷發展會委員</li>
-                  </ul>
-                </td>
+                <td class="border border-gray-300 p-2 align-top text-sm">雲行至善股份有限公司</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">技術長</td>
               </tr>
               <tr>
-                <td class="border border-gray-300 bg-gray-50 p-4 text-center font-bold align-middle">學</td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>• 醫院資訊與智慧醫療促進會</li>
-                    <li>• 台灣健康資訊交換HL7協會</li>
-                    <li>• 臺灣醫學資訊學會</li>
-                    <li>• CIO IT經理人雜誌</li>
-                    <li>• 香港大學-企業研究院</li>
-                    <li>• 中國醫藥大學</li>
-                    <li>• 中山醫學大學</li>
-                  </ul>
-                </td>
-                <td class="border border-gray-300 p-4 align-top">
-                  <ul>
-                    <li>會長</li>
-                    <li>理事</li>
-                    <li>理事</li>
-                    <li>名家專欄作者</li>
-                    <li>兼任助理教授</li>
-                    <li>兼任助理教授</li>
-                    <li>電算中心 主任</li>
-                  </ul>
-                </td>
+                <td class="border border-gray-300 p-2 align-top text-sm">中國醫藥大學附設醫院</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">資訊室 副主任</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">敏盛醫療體系</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">資訊長</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">可信科技股份有限公司</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">總經理</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">中山醫學大學附設醫院</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">資訊室 主任</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">童綜合醫院</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">資訊室 組長</td>
+              </tr>
+              <!-- 第二大類：官 -->
+              <tr>
+                <td class="border border-gray-300 bg-gray-50 p-2 text-center font-bold align-middle" rowspan="6">官</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">國家醫療品質獎-智慧醫療</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">評審委員</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">IT Matters Awards</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">評審委員</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">台北醫學大學醫療體系</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">指導顧問</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">榮民醫療體系資訊整合</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">專家顧問</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">三軍總醫院</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">資訊決策顧問</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">衛生福利部</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">電子病歷發展會委員</td>
+              </tr>
+              <!-- 第三大類：學 -->
+              <tr>
+                <td class="border border-gray-300 bg-gray-50 p-2 text-center font-bold align-middle" rowspan="7">學</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">醫院資訊與智慧醫療促進會</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">會長</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">台灣健康資訊交換HL7協會</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">理事</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">臺灣醫學資訊學會</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">理事</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">CIO IT經理人雜誌</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">名家專欄作者</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">香港大學-企業研究院</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">兼任助理教授</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">中國醫藥大學</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">兼任助理教授</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 p-2 align-top text-sm">中山醫學大學</td>
+                <td class="border border-gray-300 p-2 align-top text-sm">電算中心 主任</td>
               </tr>
             </table>
           </div>
-
         </div>
       </div>
     </div>
   </div>
-
+  
 
   <!-- 聯絡我們 -->
   <div id="contact" class="relative -top-20"></div>
   <div class="bg-gray-100 py-16">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 max-w-7xl">
       <h2 class="text-3xl font-bold text-center mb-12">聯絡我們</h2>
-      <div class="max-w-5xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <p class="text-center text-gray-600 mb-8">
-          如果您有任何問題或需求，歡迎與我們聯繫，我們將提供最專業的醫療數位轉型顧問服務。
-        </p>
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <p class="text-center text-gray-600 mb-8">如果您有任何問題或需求，歡迎與我們聯繫，我們將提供最專業的醫療數位轉型顧問服務。</p>
         <div class="bg-blue-600 text-white px-6 py-4 rounded-lg shadow-md text-center">
           <p class="text-lg font-semibold mb-2">聯繫我們</p>
-          <a href="mailto:microservices.tw@gmail.com"
-            class="underline hover:text-blue-300 transition-colors">
-            microservices.tw@gmail.com
-          </a>
+          <a href="mailto:microservices.tw@gmail.com" class="underline hover:text-blue-300 transition-colors">microservices.tw@gmail.com</a>
         </div>
       </div>
     </div>
   </div>
-
 
   </div> <!-- 主內容結束 -->
   <footer style="background-color: #0a1128;" class="text-white py-4">
