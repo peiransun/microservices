@@ -1,7 +1,7 @@
 <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
   <circle cx="300" cy="300" r="300" fill="#A0C6F7" />
   <circle cx="300" cy="300" r="240" fill="#DCF0FD" stroke="white" stroke-width="16" />
-  <line x1="40" y1="150" x2="560" y2="450" stroke="white" stroke-width="16" />
+  <line x1="40" y1="150" x2="560" y2="460" stroke="white" stroke-width="16" />
   <line x1="40" y1="450" x2="560" y2="150" stroke="white" stroke-width="16" />
   <line x1="300" y1="0" x2="300" y2="600" stroke="white" stroke-width="16" />
   <path d="M300 180 L420 240 L420 360 L300 420 L180 360 L180 240 Z" fill="#1E40AF" stroke="white" stroke-width="16" />
