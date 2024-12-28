@@ -1,12 +1,14 @@
+
 <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
   <circle cx="300" cy="300" r="300" fill="#A0C6F7" />
   <circle cx="300" cy="300" r="240" fill="#DCF0FD" stroke="white" stroke-width="16" />
-  <line x1="0" y1="150" x2="600" y2="450" stroke="blue" stroke-width="16" />
   <line x1="300" y1="0" x2="300" y2="600" stroke="white" stroke-width="16" />
   <path d="M300 180 L420 240 L420 360 L300 420 L180 360 L180 240 Z" fill="#1E40AF" stroke="white" stroke-width="16" />
   <line x1="300" y1="300" x2="420" y2="240" stroke="white" stroke-width="16" />
   <line x1="300" y1="300" x2="180" y2="240" stroke="white" stroke-width="16" />
   <line x1="300" y1="300" x2="300" y2="420" stroke="white" stroke-width="16" />
-  <line x1="510" y1="90" x2="90" y2="510" stroke="white" stroke-width="16" />
-  <line x1="90" y1="90" x2="510" y2="510" stroke="white" stroke-width="16" />
+  <!-- Line from 60 degrees to 240 degrees -->
+  <line x1="510" y1="90" x2="90" y2="510" stroke="blue" stroke-width="16" />
+  <!-- Line from 120 degrees to 300 degrees -->
+  <line x1="90" y1="90" x2="510" y2="510" stroke="blue" stroke-width="16" />
 </svg>
