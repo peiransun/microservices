@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>醫療數位轉型輔導顧問服務</title>
+  <title>醫療數位轉型顧問服務 - 微服務有限公司</title>
+  <meta name="description" content="提供醫療資訊系統優化、智慧醫院建置等數位轉型解決方案，專注於 HIS 系統優化與資料庫設計。">
+  <meta name="keywords" content="醫療數位轉型, HIS 系統, HIS優化再造, 資料庫設計, 微服務架構, 智慧醫院解決方案, FHIR 資料介接, 醫療資訊顧問, 大數據平台, IoT 智慧醫療, DevOps 導入, 孫培然">
+  <meta name="author" content="微服務有限公司">
+  <link rel="canonical" href="https://www.microservices.com.tw" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
-
   <link rel="icon" type="image/svg+xml" href="logo.svg">
-  <!-- PWA manifest.json -->
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -16,6 +18,21 @@
       const menu = document.getElementById("mobileMenu");
       menu.classList.toggle("hidden");
     }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "微服務有限公司",
+    "url": "https://www.microservices.com.tw",
+    "logo": "https://www.microservices.com.tw/logo.svg",
+    "description": "提供醫療數位轉型顧問服務，包括 HIS 系統優化與再造、FHIR 標準實施。",
+    "sameAs": [
+      "https://www.linkedin.com/company/微服務有限公司",
+      "https://www.facebook.com/微服務有限公司"
+    ]
+  }
   </script>
 </head>
 
@@ -58,7 +75,7 @@
   </nav>
 
   <!-- 主視覺區域 -->
-  <div class="bg-white pt-20">
+  <section class="bg-white pt-20">
     <div class="container mx-auto px-4 py-16 max-w-7xl">
       <div class="text-center">
         <h1 class="text-3xl font-bold text-gray-900 mb-4">醫療數位轉型顧問服務</h1>
@@ -67,102 +84,107 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- 服務項目 -->
   <div id="services" class="relative -top-20"></div>
-  <div class="py-16 bg-gray-50 scroll-mt-20">
+  <section class="py-16 bg-gray-50 scroll-mt-20">
     <div class="container mx-auto px-4 max-w-7xl">
       <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">醫療數位轉型服務項目</h2>
+      <p class="text-lg text-gray-700 text-center max-w-4xl mx-auto mb-8">
+        我們的服務涵蓋了醫療資訊系統的全方位需求，從 HIS 系統優化到智慧醫院建置，
+        再到資料庫設計與 FHIR 標準實施。我們的專家團隊致力於提供高效、創新且具未來性的數位轉型解決方案。
+      </p>
+
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- 卡片 -->
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
           <h3 class="text-xl font-bold text-blue-600 mb-4">HIS 系統優化與再造</h3>
-          <p class="text-gray-600">提供醫院資訊系統（HIS）優化與再造服務，分析現有系統的瓶頸與需求，並協助系統無縫接軌其他系統，提升運作效能與使用者體驗。</p>
+          <p class="text-gray-600">
+            提供醫院資訊系統（HIS）優化與再造服務，分析現有系統的瓶頸與需求，並協助系統無縫接軌其他系統，提升運作效能與使用者體驗。
+          </p>
         </div>
-        
         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
           <h3 class="text-xl font-bold text-blue-600 mb-4">資料庫 Schema 設計與優化</h3>
-          <p class="text-gray-600">提供專業的資料庫結構設計與優化建議，確保數據正確性與一致性，並藉由效能調校支援未來業務需求，打造穩健的數據基礎。</p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">流程優化再造與閉環管理</h3>
           <p class="text-gray-600">
-            提供醫療流程優化再造與閉環管理的設計與指導服務，協助臨床流程進行全盤分析與優化，強化就源輸入的設計。
-          </p>
+            提供專業的資料庫結構設計與優化建議，確保數據正確性與一致性，並藉由效能調校支援未來業務需求，打造穩健的數據基礎。
+        </p>
         </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">FHIR 標準實施與資料介接平台</h3>
-          <p class="text-gray-600">
-            提供專業的 FHIR 資料交換標準顧問服務，協助醫院導入標準化流程，設計高效的資料介接平台，並規劃資料中台建置方案。
-          </p>
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">流程優化再造與閉環管理</h3>
+           <p class="text-gray-600">
+             提供醫療流程優化再造與閉環管理(Closed loop management)的設計與指導服務，協助臨床流程進行全盤分析與優化，強化就源輸入的設計。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">FHIR 標準實施與資料介接平台</h3>
+           <p class="text-gray-600">
+             提供專業的 FHIR 資料交換標準顧問服務，協助醫院導入標準化流程，設計高效的資料介接平台，並規劃資料中台建置方案。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">微服務架構設計與培訓</h3>
+           <p class="text-gray-600">
+             提供微服務架構的設計與實作諮詢，包括服務範疇劃分、API 設計與技術實現，並提供團隊專屬培訓。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">事件驅動架構設計與實施</h3>
+           <p class="text-gray-600">
+             協助醫院導入事件驅動架構，提供完整設計與實作服務，打造以事件為核心的系統，提升系統反應速度與擴展性。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">開發流程自動化與 DevOps 導入</h3>
+           <p class="text-gray-600">
+             推動自動化開發流程，導入 DevOps 理念，優化開發到部署的全流程，加快系統上線速度，提升整體交付效能。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">容器技術選型評估與建議</h3>
+           <p class="text-gray-600">
+             根據醫院的業務需求，評估適合的容器化技術、工具與平台，提供完整的技術選型報告，協助制定最佳技術策略。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">大數據平台建置與數據中台規劃</h3>
+           <p class="text-gray-600">
+             協助醫院建置醫療大數據平台，整合多元資料來源，規劃數據中台，實現數據的集中管理與共享，支援決策制定。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">IoT 與 AIoT 儀器全面連線及應用</h3>
+           <p class="text-gray-600">
+             提供完整的 IoT 與 AIoT 解決方案，實現儀器設備的全面連線與智能應用，更為智慧醫療奠定了堅實基礎。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">智慧醫院創新與競賽指導</h3>
+           <p class="text-gray-600">
+             協助醫院進行智慧醫院創新規劃，提出創新服務建議，並優化臨床與行政流程整合。提供競賽選題建議與指導。
+           </p>
+         </div>
+         
+         <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+           <h3 class="text-xl font-bold text-blue-600 mb-4">客製化跨平台開發醫療應用系統</h3>
+           <p class="text-gray-600">
+             開發量身訂製的跨平台應用系統，確保在多樣化的設備與操作系統上均能流暢，為用戶創造可持續的價值。
+           </p>
         </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">微服務架構設計與培訓</h3>
-          <p class="text-gray-600">
-            提供微服務架構的設計與實作諮詢，包括服務範疇劃分、API 設計與技術實現，並提供團隊專屬培訓。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">事件驅動架構設計與實施</h3>
-          <p class="text-gray-600">
-            協助醫院導入事件驅動架構，提供完整設計與實作服務，打造以事件為核心的系統，提升系統反應速度與擴展性。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">開發流程自動化與 DevOps 導入</h3>
-          <p class="text-gray-600">
-            推動自動化開發流程，導入 DevOps 理念，優化開發到部署的全流程，加快系統上線速度，提升整體交付效能。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">容器技術選型評估與建議</h3>
-          <p class="text-gray-600">
-            根據醫院的業務需求，評估適合的容器化技術、工具與平台，提供完整的技術選型報告，協助制定最佳技術策略。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">大數據平台建置與數據中台規劃</h3>
-          <p class="text-gray-600">
-            協助醫院建置醫療大數據平台，整合多元資料來源，規劃數據中台，實現數據的集中管理與共享，支援決策制定。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">IoT 與 AIoT 儀器全面連線及應用</h3>
-          <p class="text-gray-600">
-            提供完整的 IoT 與 AIoT 解決方案，實現儀器設備的全面連線與智能應用，更為智慧醫療奠定了堅實基礎。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">智慧醫院創新與競賽指導</h3>
-          <p class="text-gray-600">
-            協助醫院進行智慧醫院創新規劃，提出創新服務建議，並優化臨床與行政流程整合。提供競賽選題建議與指導。
-          </p>
-        </div>
-  
-        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-          <h3 class="text-xl font-bold text-blue-600 mb-4">客製化跨平台開發醫療應用系統</h3>
-          <p class="text-gray-600">
-            開發量身訂製的跨平台應用系統，確保在多樣化的設備與操作系統上均能流暢，為用戶創造可持續的價值。
-          </p>
-        </div>
-      </div>
     </div>
-  </div>
+  </section> 
   
   <!-- 專案顧問 -->
-  <div id="consultant" class="relative -top-20"></div>
-  <div id="consultant" class="relative -top-20"></div>
-  <div class="bg-gray-100 py-16 scroll-mt-20">
+<div id="consultant" class="relative -top-20"></div>
+<div class="bg-gray-100 py-16 scroll-mt-20">
     <div class="container mx-auto px-4 max-w-7xl">
       <h2 class="text-3xl font-bold text-center mb-12">醫療資訊顧問 - 孫培然</h2>
       <div class="bg-white rounded-lg shadow-lg p-8">
@@ -279,13 +301,13 @@
       </div>
     </div>
   </div>
+ 
 
-  </div> <!-- 主內容結束 -->
+  <!-- footer -->
   <footer style="background-color: #0a1128;" class="text-white py-4">
     <div class="container mx-auto text-center">
-      <p>&copy; 2025 微服務有限公司 All rights reserved.</p>
+      <p>微服務有限公司官網：<a href='https://www.microservices.com.tw' class='underline hover:text-blue-300'>www.microservices.com.tw</a></p>&copy; 2025 微服務有限公司 All rights reserved.</p>
     </div>
   </footer>
 </body>
-
 </html>
